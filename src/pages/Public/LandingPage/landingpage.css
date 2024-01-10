@@ -1,0 +1,151 @@
+.landingpage-content-container {
+  background-color: rgb(39, 37, 37);
+  padding-top: 1px;
+}
+
+.banners {
+  /* background-image: url("../../../source/banner.jpg"); */
+  width: 100vw;
+  height: 95vh;
+  color: aliceblue;
+  display: flex;
+}
+.linear {
+  background: linear-gradient(
+    rgba(0, 0, 0, 0.7),
+    rgba(0, 0, 0, 0.2),
+    rgba(0, 0, 0, 0.7)
+  );
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* width: 100%; */
+  padding: 20px 150px;
+}
+.logo-img > img {
+  height: 50px;
+  width: 150px;
+}
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+.logo button {
+  height: 40px;
+  width: 90px;
+  color: whitesmoke;
+
+  background-color: brown;
+  border-radius: 10px;
+}
+.logo select {
+  color: white;
+  background-color: black;
+  border-radius: 5px;
+  height: 40px;
+  width: 120px;
+  /* margin-top: 20px; */
+}
+.head {
+  font-size: 20px;
+}
+.para {
+  font-size: 30x;
+  text-align: center;
+}
+.paraaa {
+  font-size: 15px;
+  text-align: center;
+}
+.contents {
+  /* border: 1px solid red; */
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+input {
+  display: inline;
+  width: 350px;
+  height: 50px;
+  /* margin-left: 80px;
+  margin-bottom: 100px; */
+  background-color: black;
+  color: antiquewhite;
+  border-radius: 7px;
+  flex-direction: row;
+  align-items: center;
+}
+input:focus :placeholder {
+  margin-top: -30px;
+}
+.last_line {
+  display: flex;
+  align-content: center;
+  margin-left: 30%;
+  margin-top: 25px;
+}
+.contents button {
+  width: 200px;
+  background-color: red;
+  border-radius: 5px;
+  height: 50px;
+  color: antiquewhite;
+}
+.last_line button {
+  border: none;
+  margin-left: 10px;
+}
+.last_line input {
+  border: none;
+}
+/* xxx------------------- */
+.main-banner {
+    /* background: linear-gradient(
+        to bottom,
+        rgba(0, 0, 0, 0.5) 0%,
+        rgba(0, 0, 0, 0.5) 50%
+      ),
+      url("./../../../assets/images/main-banner.jpg") center/cover no-repeat; */
+  height: 90vh;
+}
+
+.main-title {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  gap: 15px;
+  height: 90vh; /* You can adjust the height based on your design */
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.content-box {
+  display: flex;
+  gap: 10px;
+  padding-bottom: 40px;
+  justify-content: center;
+}
+
+@media screen and (max-width: 576px) {
+  .content-box {
+    flex-direction: column;
+    padding-bottom: 90px;
+  }
+
+  .main-title {
+    gap: 7px;
+  }
+}

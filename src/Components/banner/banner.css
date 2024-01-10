@@ -1,0 +1,42 @@
+.single-banner {
+  background-color: black;
+  margin-top: 8px;
+}
+.single {
+  display: flex;
+  margin-left: 10%;
+  margin-right: 10%;
+  height: 90vh;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.content-banner {
+  color: aliceblue;
+  width: 50%;
+  text-align: center;
+  /* border: 2px solid red; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: start;
+}
+
+.image-section {
+  width: 50%;
+  /* border: 2px solid red; */
+}
+.banner-image {
+  height: 100%;
+  width: 100%;
+}
+.hori {
+  height: 10px;
+  background: rgb(35, 35, 35);
+  outline: none;
+  border: none;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+}
